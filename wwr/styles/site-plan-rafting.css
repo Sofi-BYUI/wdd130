@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Sigmar&display=swap");
+:root {
+    --primary-color: Black;
+    --secondary-color: Blue;
+    --accent1-color: green;
+    --accent2-color: orange;
+
+    --heading-font: "---", serif;
+    --paragraph-font:"---", serif;
+
+    --nav-backgroun-color: white;
+    --nav-link-color: blue;
+    --nav-hover-link-color: green;
+    --nav-hover-backgrounf-color: white;
+
+}
+
+body {
+    font-family: var (--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2. h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header [
+    padding: 20px;
+]
