@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Sigmar&display=swap");
 :root {
-    --primary-color: Black;
-    --secondary-color: Blue;
-    --accent1-color: green;
-    --accent2-color: orange;
+    --primary-color: #456990;
+    --secondary-color: #49BEAA;
+    --accent1-color: #EF767A;
+    --accent2-color: #EEB868;
 
-    --heading-font: "---", serif;
-    --paragraph-font:"---", serif;
+    --heading-font: "Sigmar", cursive, serif;  
+    --paragraph-font:" Lato", sans-serif;
 
-    --nav-backgroun-color: white;
+    --nav-backgroun-color: black;
     --nav-link-color: blue;
     --nav-hover-link-color: green;
     --nav-hover-backgrounf-color: white;
@@ -16,16 +16,44 @@
 }
 
 body {
-    font-family: var (--paragraph-font);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
-h1, h2. h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-header [
+header {
     padding: 20px;
-]
+background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-backgroun-color);
+    font-size: 1.2 rem;
+    display: flex; 
+}
+  
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-backgrounf-color);
+}
+
