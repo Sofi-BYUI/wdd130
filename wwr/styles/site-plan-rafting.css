@@ -2,7 +2,6 @@
 
 
 :root {
-
     --primary-color: #456990;
     --secondary-color: #49BEAA;
     --accent1-color: #EF767A;
@@ -15,7 +14,6 @@
     --nav-link-color: #49DCB1;
     --nav-hover-link-color: #49DCB1;
     --nav-hover-backgrounf-color: #456990;
-
 }
 
 body {
