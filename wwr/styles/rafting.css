@@ -88,3 +88,56 @@ article {
     height: 50px;
 }
 
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 3fr;
+	align-items: flex-end;
+	border-bottom: 1px solid #cfa7a8;
+	max-width: 1000px;
+}
+
+.logo {
+	margin: 0 0.25rem 0 1rem;
+    grid-column-start: 1;
+	width: 64px;
+	height: auto;
+}
+
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.gridimages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.images {
+    width: 1fr;
+    height: 1fr;
+}
+
+
