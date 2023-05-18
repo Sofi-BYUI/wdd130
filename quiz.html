@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/poll-form.css">
-    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>WDD 130 | HTML & CSS Quiz</title>
 </head>
 <body>
 <header>
-    <h1>WDD 130 | Sofia Enid Sanchez Arzaluz | HTML Form - User Poll</h1>
+    <h1>WDD 130 | Sofia Enid Sanchez Arzaluz | HTML & CSS quiz</h1>
 </header>
 <main> 
     <form>
@@ -25,30 +25,35 @@
         </div>
         </fieldset>
         <fieldset>
-            <legend>Questions</legend>
-            <label for="browser">What is your favorite internet browser?</label>
-            <select id="browser" name="browser">
-            <div class="form-item column1">
-                <option value="chrome">Chrome</option>
-                <option value="firefox">Firefox</option>
-                <option value="safari">Safari</option>
-                <option value="edge">Edge</option>
-                <option value="brave">Brave</option>
-                <option value="other">Other</option>
-            </div>
-            </select>
-            <label for="pet">Do you have a household pet?</label>
+            <legend>HTNL and CSS quiz</legend>
         <div class="form-item column1">
-            <input type="checkbox" id="pet" name="pet">
-            <label for="feedback">List the places you have lived:</label>
-            <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali">></textarea>
+            <label for="q1">1.- What does the acronym HTML stands for?</label>
+            <input type="text" id="q1" name="q1">
         </div>
+        <div class="form-item column1">
+            <label for="q2">2.- What are the elements of the CSS Box Model?</label>
+            <textarea id="q2" name="q2" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali">></textarea>
+        </div>
+            <label for="q3">3.- Which Character is used to indicate an end tag on html?</label>
+            <select id="q3" name="q3">
+                <div class="form-item column1">
+                    <option value="">Choose one...</option>
+                    <option value="*">*</option>
+                    <option value="^">^</option>
+                    <option value="|">|</option>
+                    <option value="/">/</option>
+                </div>
+            </select>
+        <div class="form-item column1">
+            <label for="q4">4.What is the bottom margin given this declaration?-</label>
+            <img src="images/margin.jpg" alt="margin meassures">
+            <input type="number" id="q4" name="q4" step="1">
         </fieldset>
         <button type="submit">Submit Poll</button>
     </form>
 </main>
 <footer>
-    <p>©2023 | HTML Form - User Poll Activity | Sofia Enid Sanchez Arzaluz</p>
+    <p>©2023 | HTML Form - HTML and CSS quiz | Sofia Enid Sanchez Arzaluz</p>
 </footer>
 </body>
 </html>
