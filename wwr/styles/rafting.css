@@ -130,11 +130,6 @@ nav {
 	text-decoration: underline;
 }
 
-.gridimages {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
 form {
     width: 650px;
     margin: 0 auto;
@@ -205,6 +200,26 @@ form {
 
   .column2 {
     grid-template-columns: 1fr 2fr;
+  }
+
+  .grid{
+    display: grid;
+  }
+
+  .grid-cols-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  .m-0 {
+    margin: 0;
+  }
+
+  .p1 {
+    padding: 4px;
   }
 
 
